@@ -35,6 +35,10 @@ nnoremap <C-S-Tab> :bp<CR>
 nnoremap <leader><space> :nohlsearch<CR>
 inoremap <C-Space> <C-x><C-o>
 inoremap <C-@> <C-Space>
+cnoreabbrev W    w
+cnoreabbrev Wq   wq
+cnoreabbrev WQ   wq
+cnoreabbrev Q    q
 
 "Ui settings 
 
@@ -57,5 +61,6 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'bling/vim-bufferline'
 Plug 'godlygeek/tabular'
 Plug 'othree/html5.vim'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
