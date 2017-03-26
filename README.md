@@ -1,5 +1,11 @@
 # GNU/Linux configuration files
 
-My personal neovim, zsh, tmux, jhbuild, and alacritty configuration files.
+My personal configuration files for :
 
-The themes is called "NeoDark" created by KeitaNakamura https://github.com/KeitaNakamura/neodark.vim 
+*       Neovim
+*       Zsh
+*       Jhbuild
+*       Tmux
+*       Alacritty
+*       Libinput Gestures
+
