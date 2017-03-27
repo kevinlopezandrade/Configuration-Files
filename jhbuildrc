@@ -11,6 +11,10 @@
 # or a URL of a module set file on a web server.
 # moduleset = 'gnome-apps-3.12'
 #
+
+moduleset = ['gnome-apps-3.26','gnome-suites-core-3.26']
+
+#
 # A list of the modules to build.  Defaults to the GNOME core and tested apps.
 # modules = [ 'meta-gnome-core', 'meta-gnome-apps-tested' ]
 
