@@ -18,7 +18,6 @@ promptinit
 
 # Alias
 alias ls='ls --color=auto'
-alias open='xdg-open'
 alias gtk='gcc `pkg-config --cflags --libs gtk+-3.0`'
 alias .='pwd'
 alias ...='cd ../..'
@@ -26,6 +25,7 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
 alias .......='cd ../../../../../..'
+# alias spotify='flatpak run com.spotify.Client'
 
 # For Jhbuild
 PATH=$PATH:~/.local/bin
@@ -41,4 +41,7 @@ export EDITOR
 export GTK_PATH
 
 # Prompt
-PS1='[%n@%m %~]$ '
+# PS1=$'\e[32;1m[%n@%m %~]$ \e[0m'
+# PS1=$'\e[32;1m[%n@%m %~]$ '
+# PROMPT='%F{green}%n%f@%F{blue}%m%f %F{yellow}%1~%f %# '
+PROMPT='%B%F{green}[%n@%m %~]$ %f%b'
